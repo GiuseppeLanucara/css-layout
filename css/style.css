@@ -1,18 +1,22 @@
+/* RESET */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* COLORE DI TUTTA LA PAGINA */
 body{
     background-color:#0f0e17 ;
 }
 
+/* SETTING FONT */
 html{
     font-size: 62,5%;
     font-family: 'Fredoka', sans-serif;
 }
 
+/* CONTENITORE PRINCIPALE */
 .container{
     width: 70%;
     margin: auto;
@@ -24,6 +28,7 @@ html{
     color: blueviolet;
 }
 
+/* CONTENITORE SINGOLE COLONNE */
 .colonne{
     width: calc(100% / 3 - 3em);
     float: left;
@@ -37,6 +42,7 @@ img{
     height: 7em;
 }
 
+/* FIXED */
 .fixed::after{
     content: "";
     display: table;
